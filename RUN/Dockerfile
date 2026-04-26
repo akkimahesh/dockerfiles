@@ -1,2 +1,2 @@
 FROM redhat/ubi9
-RUN sleep 100
+RUN yum update -y #Run instruction executes while images building
